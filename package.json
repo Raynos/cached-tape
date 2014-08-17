@@ -7,6 +7,7 @@
   "repository": "git://github.com/Raynos/cached-tape.git",
   "main": "index",
   "homepage": "https://github.com/Raynos/cached-tape",
+  "bin": "./bin.js",
   "bugs": {
     "url": "https://github.com/Raynos/cached-tape/issues",
     "email": "raynos2@gmail.com"
