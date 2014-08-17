@@ -4,7 +4,8 @@ var GLOBAL = typeof window !== 'undefined' ? window :
 var tape = GLOBAL.__TAPE_CACHED_LAZY_HARNESS;
 
 if (!tape) {
-    tape = require('tape');
+    tape = GLOBAL.__TAPE_CACHED_LAZY_HARNESS = require('tape');
 }
 
 module.exports = tape;
+
