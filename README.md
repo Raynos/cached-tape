@@ -12,27 +12,21 @@
 
 A cached version of tape
 
+# Warning **do not use this module**
+
+This module is only needed in extreme edge cases. One of these extreme
+edge cases is if you have multiple node_modules folders in one application.
+
+For your test suite to work across these node_modules folders you might
+want to use `cached-tape`.
+
 ## Example
 
 ```js
-var cachedTape = require("cached-tape");
+var test = require("cached-tape");
 
-// TODO. Show example
+// works like normal tape.
 ```
-
-## Docs
-
-### `var someValue = cachedTape(/*arguments*/)`
-
-<!--
-  This is a jsig notation of your interface.
-  https://github.com/Raynos/jsig
--->
-```ocaml
-cached-tape := (arg: Any) => void
-```
-
-// TODO. State what the module does.
 
 ## Installation
 
